@@ -3,12 +3,13 @@
   <h1>Cars</h1>
   {% if car_list %}
     <table>
+      <thead>
       <tr>
         <th>Id</th>
         <th>Model</th>
         <th>Manufacturer</th>
       </tr>
-      <thead></thead>
+      </thead>
       <tbody>
       {% for car in car_list %}
         <tr>
